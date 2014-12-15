@@ -31,8 +31,8 @@ gem 'haml-rails'
 gem 'thin'
 
 gem 'compass-rails'
-gem 'animate', path: '../compass-animate'
-# gem 'animate', github: 'ericam/compass-animate'
+# gem 'animate', path: '../compass-animate'
+gem 'animate', github: 'ericam/compass-animate', branch: 'update_animations'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -4,6 +4,7 @@
 @import 'animate';
 
 @include animate;
+// @include animate-zoomOut;
 
 // .bounce {
 //   @include animation(bounce 0.5s linear forwards);
@@ -13,6 +14,6 @@ $list: bounce flash pulse rubberBand shake swing tada wobble bounceIn bounceInDo
 
 @each $item in $list {
   .#{$item} {
-    @include animation(#{$item} 2s linear forwards);
+    @include animation(#{$item} 0.8s linear forwards);
   }
 }
